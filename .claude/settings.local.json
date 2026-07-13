@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\USER\\\\Documents\\\\Claude\\\\FIFA\\\\\" | Where-Object {$_.Name -match \"\\\\.csv\"})",
+      "Skill(dataviz)"
+    ]
+  }
+}
